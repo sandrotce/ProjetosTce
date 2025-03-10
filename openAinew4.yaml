@@ -1,0 +1,57 @@
+openapi: 3.0.3
+info:
+  title: APIs REST
+  description: |-
+    Lista de APIs REST disponibilizadas pelo TOTVS appServer.
+    
+    Porta: [9995]
+  version: 0.1.1
+paths:
+  /api/dashboard/userProfiles:
+    post:
+      summary: userProfiles
+      tags:
+        - "userProfiles Post"
+      description: Exemplo para geração de documentação Swagger, metodo- Post
+      parameters: []
+      responses: 
+        200:
+          description: Success
+        400:
+          description: Bad Request
+  /api/dashboard/userProfiles/{id}:
+    put:
+      summary: userProfiles
+      tags:
+        - "userProfiles Put"
+      description: Exemplo para geração de documentação Swagger, metodo- put
+      parameters:
+        - name: id
+          in: path
+          description: desc_id_1
+          required: true
+          schema: 
+            type: string
+      responses: 
+        200:
+          description: Success
+        400:
+          description: Bad Request
+  /api/dashboard/userProfiles/{id}:
+    get:
+      summary: userProfiles
+      tags:
+        - "userProfiles get"
+      description: Exemplo para geração de documentação Swagger, metodo- Get.
+      parameters:
+        - name: id
+          in: path
+          description: desc_id_1
+          required: true
+          schema: 
+            type: string
+      responses: 
+        200:
+          description: Success
+        400:
+          description: Bad Request
