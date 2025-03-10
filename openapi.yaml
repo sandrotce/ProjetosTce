@@ -33,7 +33,6 @@ paths:
           description: Success
         400:
           description: Bad Request
-  /api/dashboard/userProfiles/{id}:
     get:
       summary: userProfiles
       description: Exemplo para geração de documentação Swagger, metodo- Get.
