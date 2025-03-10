@@ -11,7 +11,7 @@ paths:
     post:
       summary: userProfiles
       tags:
-        - "userProfiles Post"
+        - "userProfiles"
       description: Exemplo para geração de documentação Swagger, metodo- Post
       parameters: []
       responses: 
@@ -22,7 +22,7 @@ paths:
     put:
       summary: userProfiles
       tags:
-        - "userProfiles Put"
+        - "userProfiles"
       description: Exemplo para geração de documentação Swagger, metodo- put
       parameters:
         - name: id
@@ -39,7 +39,7 @@ paths:
     get:
       summary: userProfiles
       tags:
-        - "userProfiles get"
+        - "userProfiles"
       description: Exemplo para geração de documentação Swagger, metodo- Get.
       parameters:
         - name: id
