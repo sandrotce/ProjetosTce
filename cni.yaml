@@ -287,8 +287,7 @@
               "read:pets"
             ]
           }
-        ],
-        "deprecated": true
+        ]
       }
     },
     "/pet/{petId}": {
