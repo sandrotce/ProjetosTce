@@ -1001,9 +1001,6 @@
             "approved",
             "delivered"
           ]
-        },
-        "complete": {
-          "type": "boolean"
         }
       },
       "xml": {
